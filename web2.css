@@ -1,0 +1,98 @@
+body {
+    background-color: #ddd;
+}
+.main {
+   text-align: center;
+   background-color: #d4ecce;
+   padding-bottom: 5rem;
+}
+
+.bg-body-tertiary {
+    background-color: unset !important;
+}
+.navbar-brand {
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.btn-outline-success {
+    --bs-btn-color: black;
+    --bs-btn-border-color: black;
+    --bs-btn-hover-color:white;
+    --bs-btn-hover-bg:  #52ad42;
+    --bs-btn-hover-border-color: black;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: black;
+    --bs-btn-active-border-color: black;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: black;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: black;
+    --bs-gradient: none;
+}
+
+.bg {
+    background-image: url(/halfmind/img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 700px;
+    max-width: 100%;
+}
+
+.tagline {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3rem;
+
+}
+.tagline2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2rem;
+
+}
+#tagline {
+    color: #52ad42;
+}
+
+.btn.active {
+    background-color: #52ad42;
+    border: #52ad42;
+}
+
+.services {
+    background-color: white;
+    padding-bottom: 3rem;
+}
+
+.sec2 {
+    padding-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.im {
+    width: 450px;
+    height: 300px;
+}
+form {
+    margin-top: 2rem;
+}
+.form-control{
+    width: 60%;
+    display: unset;
+    border-color: transparent;
+    border-bottom: 1px solid black;
+}
+
+.form-control:focus {
+    border-color: unset;
+    box-shadow: none;
+}
